@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [AllureTestReport]">
+  <test name="AllureTest(failed)">
+    <classes>
+      <class name="allureTestReport.AllureTest">
+        <methods>
+          <include name="skipTest"/>
+          <include name="beforeClass"/>
+          <include name="loginTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- allureTestReport.AllureTest -->
+    </classes>
+  </test> <!-- AllureTest(failed) -->
+</suite> <!-- Failed suite [AllureTestReport] -->
